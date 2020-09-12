@@ -7,7 +7,7 @@ def hcfnaive(a,b):
     else:
         return hcfnaive(b,a%b)
 
-x=8424432925592889329288197322308900672459420460792423
+x=1 # start from one or any number in Z
 a = pow(x, 17) + 9   # for the initial operation
 b = pow(x+1, 17) + 9 # ^
 
